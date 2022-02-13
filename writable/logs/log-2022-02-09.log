@@ -1,0 +1,207 @@
+CRITICAL - 2022-02-09 22:03:33 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\biblioteca\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\biblioteca\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-09 22:04:05 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\biblioteca\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\biblioteca\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-09 22:04:34 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\biblioteca\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\biblioteca\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-09 22:06:46 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\productos\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\productos\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\productos\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\productos\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-09 22:06:59 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\productos\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\productos\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\productos\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\productos\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-09 16:06:52 --> Invalid file: productos/listars.php
+#0 C:\xampp\htdocs\productos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/lista...')
+#1 C:\xampp\htdocs\productos\system\Common.php(1089): CodeIgniter\View\View->render('productos/lista...', Array, true)
+#2 C:\xampp\htdocs\productos\app\Controllers\Productos.php(11): view('productos/lista...')
+#3 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 16:07:28 --> Invalid file: productos/listars.php
+#0 C:\xampp\htdocs\productos\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/lista...')
+#1 C:\xampp\htdocs\productos\system\Common.php(1089): CodeIgniter\View\View->render('productos/lista...', Array, true)
+#2 C:\xampp\htdocs\productos\app\Controllers\Productos.php(11): view('productos/lista...')
+#3 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-09 18:09:07 --> Undefined variable $libro
+#0 C:\xampp\htdocs\productos\app\Controllers\Productos.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-09 18:09:35 --> Undefined variable $libros
+#0 C:\xampp\htdocs\productos\app\Views\productos\listar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\productos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\productos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\productos\system\Common.php(1089): CodeIgniter\View\View->render('productos/lista...', Array, true)
+#4 C:\xampp\htdocs\productos\app\Controllers\Productos.php(13): view('productos/lista...', Array)
+#5 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 18:09:37 --> Undefined variable $libros
+#0 C:\xampp\htdocs\productos\app\Views\productos\listar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\productos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\productos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\productos\system\Common.php(1089): CodeIgniter\View\View->render('productos/lista...', Array, true)
+#4 C:\xampp\htdocs\productos\app\Controllers\Productos.php(13): view('productos/lista...', Array)
+#5 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 18:09:38 --> Undefined variable $libros
+#0 C:\xampp\htdocs\productos\app\Views\productos\listar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\productos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\productos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\productos\system\Common.php(1089): CodeIgniter\View\View->render('productos/lista...', Array, true)
+#4 C:\xampp\htdocs\productos\app\Controllers\Productos.php(13): view('productos/lista...', Array)
+#5 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 18:29:41 --> Undefined variable $productos
+#0 C:\xampp\htdocs\productos\app\Views\template\cabecera.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14)
+#1 C:\xampp\htdocs\productos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\productos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\productos\system\Common.php(1089): CodeIgniter\View\View->render('template/cabece...', Array, true)
+#4 C:\xampp\htdocs\productos\app\Controllers\Productos.php(13): view('template/cabece...')
+#5 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 18:40:07 --> Array to string conversion
+#0 C:\xampp\htdocs\productos\app\Controllers\Productos.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->crear()
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-09 19:51:37 --> Undefined variable $cabecera
+#0 C:\xampp\htdocs\productos\app\Views\productos\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\productos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\productos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\productos\system\Common.php(1089): CodeIgniter\View\View->render('productos/crear', Array, true)
+#4 C:\xampp\htdocs\productos\app\Controllers\Home.php(9): view('productos/crear')
+#5 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 19:55:56 --> Undefined variable $pie
+#0 C:\xampp\htdocs\productos\app\Views\productos\crear.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\productos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\productos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\productos\system\Common.php(1089): CodeIgniter\View\View->render('productos/crear', Array, true)
+#4 C:\xampp\htdocs\productos\app\Controllers\Home.php(9): view('productos/crear')
+#5 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 19:56:49 --> Undefined variable $cabecera
+#0 C:\xampp\htdocs\productos\app\Views\productos\crear.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\productos\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\productos\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\productos\system\Common.php(1089): CodeIgniter\View\View->render('productos/crear', Array, true)
+#4 C:\xampp\htdocs\productos\app\Controllers\Home.php(9): view('productos/crear')
+#5 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-09 22:05:46 --> Undefined constant "App\Controllers\this"
+#0 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->guardar()
+#1 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-09 22:26:30 --> unlink(../public/uploads/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../publi...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\productos\app\Controllers\Productos.php(50): unlink('../public/uploa...')
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->borrar('4')
+#3 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-09 22:27:44 --> Call to undefined method CodeIgniter\HTTP\Response::redict()
+#0 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->borrar('4')
+#1 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-09 22:28:48 --> Call to undefined method CodeIgniter\HTTP\Response::redict()
+#0 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->borrar('5')
+#1 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-09 22:28:51 --> Call to undefined method CodeIgniter\HTTP\Response::redict()
+#0 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->borrar('1')
+#1 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-09 22:32:12 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\productos\app\Controllers\Productos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->borrar('1')
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-09 22:32:27 --> unlink(../public/uploads/calamina.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../publi...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\productos\app\Controllers\Productos.php(50): unlink('../public/uploa...')
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->borrar('3')
+#3 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-09 22:50:25 --> unlink(../public/uploads/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../publi...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\productos\app\Controllers\Productos.php(50): unlink('../public/uploa...')
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->borrar('7')
+#3 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-09 23:36:14 --> Undefined variable $nuevoNombre
+#0 C:\xampp\htdocs\productos\app\Controllers\Productos.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73)
+#1 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->actualizar()
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-09 23:37:09 --> Undefined constant "App\Controllers\this"
+#0 C:\xampp\htdocs\productos\system\CodeIgniter.php(825): App\Controllers\Productos->actualizar()
+#1 C:\xampp\htdocs\productos\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\productos\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\productos\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
