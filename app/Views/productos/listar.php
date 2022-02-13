@@ -6,7 +6,7 @@
                 <tr>
                     <th>#</th>
                     <th>Imagen</th>
-                    <th>Nombre</th>
+                    <th>Producto</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
